@@ -12,3 +12,4 @@ db.create_all()
 
 //Freeze requirements
 pip3 freeze > requirements.txt
+
