@@ -1,0 +1,14 @@
+source env/bin/activate
+
+
+
+//Create DB steps
+Go to python shell
+from app import app, db
+app.app_context().push()
+db.create_all()
+
+
+
+//Freeze requirements
+pip3 freeze > requirements.txt
